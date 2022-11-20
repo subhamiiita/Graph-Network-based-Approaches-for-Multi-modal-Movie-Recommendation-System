@@ -1,5 +1,5 @@
 # Graph-Network-based-Approaches-for-Multi-modal-Movie-Recommendation-System
-- Bullet list
+- 
   A novel task of multi-modal video recommendation is introduced along with a first of its kind multi-modal movie dataset.
 - Bullet list
 Multi-modal features extracted from text, metadata, audio, video modalities of movies are utilized  for generating movie representation as well as user representation in an unsupervised way---this is unlike the existing approaches where user rating information are utilized for generating movie/user representations
