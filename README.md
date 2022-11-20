@@ -9,3 +9,12 @@ Better representations of metadata and the description using knowledge graph-bas
 * Developing a Graph Attention Network based approach for regression system.
 
 * Experiments to determine the influence of various modalities on baseline models are performed with positive conclusions.
+
+<br/>
+To run this code:
+```
+cd Experiment
+<br/>
+python train_gcn.py
+
+```
