@@ -16,5 +16,5 @@ To run this code:
 
 `cd Experiment`
 <br/>
-`python train_gcn.py`
+`python train_graph_attention_network.py`
 
