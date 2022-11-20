@@ -12,9 +12,9 @@ Better representations of metadata and the description using knowledge graph-bas
 
 <br/>
 To run this code:
-```
-cd Experiment
-<br/>
-python train_gcn.py
+<bt/>
 
-```
+`cd Experiment`
+<br/>
+`python train_gcn.py`
+
