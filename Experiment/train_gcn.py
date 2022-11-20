@@ -12,8 +12,8 @@ import model_gcn_ww as neural_network
 
 
 
-movie_enc= helpers.load_pkl("../objs/enc_movie.obj")
-user_enc= helpers.load_pkl("../objs/enc_user_final.obj")
+movie_enc= helpers.load_pkl("../Dataset/enc_movie.obj")
+user_enc= helpers.load_pkl("../Dataset/enc_user.obj")
 
 
 
