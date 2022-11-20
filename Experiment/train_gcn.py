@@ -12,19 +12,11 @@ import model_gcn_ww as neural_network
 
 
 
-movie_enc= helpers.load_pkl("../liv_data/objs/enc_movie.obj")
-user_enc= helpers.load_pkl("../liv_data/objs/enc_user_final.obj")
+movie_enc= helpers.load_pkl("../objs/enc_movie.obj")
+user_enc= helpers.load_pkl("../objs/enc_user_final.obj")
 
 
 
-
-
-
-# movie_enc= helpers.load_pkl("./objs/movie_random_onehot.obj")
-# user_enc= helpers.load_pkl("./objs/user_random_onehot.obj")
-
-# train_data= helpers.load_pkl("../liv_data/objs/splits/u1.train.obj")
-# test_data= helpers.load_pkl("../liv_data/objs/splits/u1.test.obj")
 
 
 movie_shape= len(movie_enc.get(list(movie_enc.keys())[0]))
@@ -135,7 +127,7 @@ def test(model, data, save= True, take_entire_data= True):
         helpers.save_model(model)
 
 def calc_rms(t, p):
-    return mse(t, p)
+    return mse(t, p, squared=False)
 
 
 def train_test_ext(train_obj, test_obj):
